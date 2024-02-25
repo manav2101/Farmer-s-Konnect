@@ -1,0 +1,120 @@
+/* Resetting default browser styles */
+body, h1, h2, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333; /* Default text color */
+}
+
+h1 {
+    margin: 140px 0 10px;;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.home-supporting-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #fffdfd; /* Grey background color for navigation bar */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.navbar .navbar-brand img {
+    height: 70px;
+    width: auto;
+}
+
+.navbar .navbar-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar .navbar-nav li {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 60px;
+}
+
+.navbar .navbar-nav li:first-child {
+    margin-left: 0;
+}
+
+.navbar .navbar-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #075e54; /* Menu item hover color */
+}
+
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #fff; /* White background for footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.home-buttons {
+    text-align: center; /* Center align the buttons */
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: #075e54;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #128c7e; /* Darker shade on hover */
+}

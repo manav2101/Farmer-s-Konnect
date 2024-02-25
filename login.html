@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login_style.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="images/FK.png" alt="Logo" class="logo animated-logo">
+    </div>
+    <div class="form-container">
+        <h2>Welcome to Farmer's Konnect</h2>
+        <form id="login-form">
+            <label for="contact-no">Contact Number:</label>
+            <input type="tel" id="contact-no" name="contact-no" required>
+            <button type="button" id="get-otp-btn">Get OTP</button>
+            <label for="otp">Enter OTP:</label>
+            <input type="text" id="otp" name="otp" required>
+            <button type="button" id="submit-otp-btn">Submit OTP</button>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="login_script.js"></script>
+</body>
+</html>
